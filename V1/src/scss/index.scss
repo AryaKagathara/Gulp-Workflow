@@ -1,0 +1,28 @@
+@use "sass:math";
+
+// @debug math.floor(math.div(10,3));
+
+@import "./scss/bootstrap.scss";
+
+// import google font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "variables";
+@import "base";
+
+.demo {
+  color: map-get($colors, "purple");
+  // @debug map-has-key($colors , 'black' );
+  // @debug map-remove($colors , 'black' );
+  // @debug map-merge($colors , ('pink': #ffc0cb) );
+  animation: demo 2s infinite;
+}
+
+@keyframes demo {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 50px;
+  }
+}

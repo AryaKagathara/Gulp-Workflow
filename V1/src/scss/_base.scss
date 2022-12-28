@@ -1,0 +1,75 @@
+/* reset styles */
+* {
+    color: inherit;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Poppins;
+  }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px dotted #efefef;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  h1 {
+    a {
+      color: $primary;
+    }
+  }
+  
+// @for $i from 1 through 8 {
+//   font-#{$i} {
+//     font-size: #{$i}px;
+//   }
+// }
+
+  
+// @each $key, $val in $colors {
+//     .text-#{$key} {
+//         color: $val;
+//     }
+//     .bg-#{$key} {
+//         background-color: $val;
+//     }
+// }
+
+.font-16 {
+  font-size: 1rem;
+}
+
+// @mixin btn($color) {
+//   padding: 16px 20px;
+//   @extend .font-16;
+//   border-radius: 5px;
+//   border: none;
+//   color: complement($color);
+//   cursor: pointer;
+// }
+
+// @each $key, $val in $colors {
+//   @if($key != 'pink') {
+//     .btn-#{$key} {
+//       @include btn($val);
+//       background-color: $val;
+//       &:hover {
+//         background-color: rgba($val, 0.9);
+//         // background-color: lighten($val,.1);
+//       }
+//     }
+//   } 
+// }
