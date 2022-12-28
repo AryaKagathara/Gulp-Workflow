@@ -29,7 +29,6 @@ gulp
 - The setup is ready, you can modify as per your need
 
 ## Process
-#
 #### JS -> JS (Minified)
 ```mermaid
 graph TD;
