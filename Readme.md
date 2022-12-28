@@ -5,9 +5,6 @@
   <p align="center">The streaming build system</p>
 </p>
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Azure Pipelines Build Status][azure-pipelines-image]][azure-pipelines-url] [![Build Status][travis-image]][travis-url] [![AppVeyor Build Status][appveyor-image]][appveyor-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![OpenCollective Backers][backer-badge]][backer-url] [![OpenCollective Sponsors][sponsor-badge]][sponsor-url] [![Gitter chat][gitter-image]][gitter-url]
-
-
 ## What is gulp?
 
 - **Automation** - gulp is a toolkit that helps you automate painful or time-consuming tasks in your development workflow.
@@ -15,6 +12,21 @@
 - **Strong Ecosystem** - Use npm modules to do anything you want + over 3000 curated plugins for streaming file transformations.
 - **Simple** - By providing only a minimal API surface, gulp is easy to learn and simple to use.
 
+## Installation
+- Install node latest version
+- Download the repo and then install the packages with below command
+```
+npm install
+```
+- Install Gulp with below command
+```
+npm install -g gulp
+```
+- Run command to compile sample code with below command
+```
+gulp
+```
+- The setup is ready, you can modify as per your need
 
 ## Process
 #
